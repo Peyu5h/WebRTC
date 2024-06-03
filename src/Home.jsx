@@ -15,8 +15,8 @@ const Home = () => {
 
   useEffect(() => {
     const newPeer = new Peer(undefined, {
-      host: "localhost",
-      port: 3000,
+      host: "webrtc-vepg.onrender.com",
+      secure: true,
       path: "/peerjs",
     });
 
